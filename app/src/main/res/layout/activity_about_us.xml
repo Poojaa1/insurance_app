@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".about_us">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            tools:ignore="MissingClass">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:background="@color/colorPrimary"
+                    android:padding="30dp"
+                    android:text="Who are we?"
+                    android:textColor="#FFFFFF"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/aboutCompany"
+                    android:layout_width="match_parent"
+                    android:layout_height="310dp"
+                    android:layout_margin="8dp"
+                    android:fontFamily="sans-serif"
+
+                    android:text="Sucessful insurance sales professionals have to learn early on how to maintain a thick skin and postive attitude.A great way to keep yourself motivated, especially during tough times,is to be reminded of why you do what you do the positive impact your efforts have on others, and how to stya resilient, and our main moto is to provide best insurance plans with best insurnace plans with best premium to people of every age group so that they can live a streaa free and happy life."
+                    android:textSize="20dp" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+    </LinearLayout>
+</LinearLayout>

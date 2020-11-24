@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "574405856271",
+    "firebase_url": "https://precal-e5e50.firebaseio.com",
+    "project_id": "precal-e5e50",
+    "storage_bucket": "precal-e5e50.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:574405856271:android:dca8579ece71152215a77a",
+        "android_client_info": {
+          "package_name": "com.example.licapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "574405856271-snddjpoeepq137un47r10lh3bdiplkqd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAxPZjyJKdk7QubrjFyCE5erd90dfAiH4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "574405856271-snddjpoeepq137un47r10lh3bdiplkqd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
